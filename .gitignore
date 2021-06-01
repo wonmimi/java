@@ -21,3 +21,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+# Unversioned Files
+/.idea/.gitignore
+/.idea/dbnavigator.xml
+/java_project.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
