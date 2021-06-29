@@ -1,6 +1,4 @@
-package ch08;
-
-import java.util.Date;
+package Chapter02.ch08;
 
 public class Order {
     public String orderNumber;

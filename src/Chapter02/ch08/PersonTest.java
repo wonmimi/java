@@ -1,4 +1,4 @@
-package ch08;
+package Chapter02.ch08;
 
 public class PersonTest {
 
