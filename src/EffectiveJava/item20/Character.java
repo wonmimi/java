@@ -1,4 +1,4 @@
-package EffectiveJava;
+package EffectiveJava.item20;
 
 public interface Character {
     public void wakeup();

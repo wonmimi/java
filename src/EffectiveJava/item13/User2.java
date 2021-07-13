@@ -1,7 +1,6 @@
-package Chapter02.objectClassTest;
-import java.awt.*;
-import java.util.Map;
+package EffectiveJava.item13;
 
+// User , Color 하나에 정의
 public class User2 implements Cloneable{
     private  String name;
     private Color2 color; // 가변 상태 필드

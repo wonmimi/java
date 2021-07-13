@@ -1,4 +1,4 @@
-package Chapter02.objectClassTest;
+package EffectiveJava.item13;
 
 public class Color implements Cloneable{
     private String color;

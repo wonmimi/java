@@ -1,4 +1,4 @@
-package EffectiveJava;
+package EffectiveJava.item20;
 
 public abstract class AbstractCharacter implements Character{
     @Override

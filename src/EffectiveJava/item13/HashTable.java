@@ -1,4 +1,4 @@
-package Chapter02.objectClassTest;
+package EffectiveJava.item13;
 
 public class HashTable implements Cloneable{
 

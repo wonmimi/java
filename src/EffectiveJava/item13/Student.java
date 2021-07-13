@@ -1,4 +1,4 @@
-package Chapter02.objectClassTest;
+package EffectiveJava.item13;
 
 class Student implements Cloneable{
     String name;

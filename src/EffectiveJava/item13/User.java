@@ -1,6 +1,4 @@
-package Chapter02.objectClassTest;
-import java.awt.*;
-import java.util.Map;
+package EffectiveJava.item13;
 
 public class User implements Cloneable{
     private  String name;

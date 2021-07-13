@@ -1,4 +1,4 @@
-package EffectiveJava;
+package EffectiveJava.item20;
 
 public class Police extends AbstractCharacter implements Character{
     @Override
