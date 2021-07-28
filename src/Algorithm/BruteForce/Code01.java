@@ -49,6 +49,7 @@ public class Code01 {
         solution(1); // 원소 1부터
         // 출력
         System.out.println("\n"+sb.toString());
+//        System.out.println(sb);
 
         // [0] 은 항상 0
 //        System.out.println(selected.length);
