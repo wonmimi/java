@@ -1,7 +1,8 @@
-package Algorithm.BruteForce;
+package Algorithm.Search;
 /*
     완전 탐색
     N 중복 허용 , M 순서 있게
+    백준 15651
  */
 
 import java.io.*;

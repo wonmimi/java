@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+/*
+    백준 15649
+ */
 public class Code02 {
     static int N,M;
     static int[] selected;
