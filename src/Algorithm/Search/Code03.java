@@ -11,7 +11,6 @@ import java.util.StringTokenizer;
 public class Code03 {
     static int N,M;
      static int[] selected;
-     static int[] used;
      static StringBuilder result = new StringBuilder(); //18108KB	220ms
 //    static String result = ""; // 298612KB ,  856ms
 
