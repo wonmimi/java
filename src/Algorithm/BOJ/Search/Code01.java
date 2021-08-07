@@ -1,4 +1,4 @@
-package Algorithm.Search;
+package Algorithm.BOJ.Search;
 /*
     완전 탐색
     N 중복 허용 , M 순서 있게

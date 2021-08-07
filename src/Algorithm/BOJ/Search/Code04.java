@@ -1,4 +1,4 @@
-package Algorithm.Search;
+package Algorithm.BOJ.Search;
 
 import java.io.*;
 import java.util.*;
@@ -19,6 +19,11 @@ public class Code04 {
         selected = new int[M+1];
         used = new int[N+1];
         solution(1);
+        System.out.println(result);
+
+        Stack<Integer> stack = new Stack<>();
+        stack.push(7);
+        int result = stack.pop();
         System.out.println(result);
     }
 

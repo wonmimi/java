@@ -1,13 +1,15 @@
-package Algorithm.Search;
+package Algorithm.BOJ.Search;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
-public class Code02Advanced {
+/*
+    백준 15649
+ */
+public class Code02 {
     static int N,M;
-    static int[] selected, used;
+    static int[] selected;
     static StringBuilder str = new StringBuilder();
 
     static void solution(int num){ // 1~
@@ -19,13 +21,17 @@ public class Code02Advanced {
             str.append('\n');
         }else {
             for(int t =1; t<=N; t++){
-                if(used[t] == 1) continue;
-
-                selected[num] = t;
-                used[t] = 1;
-                solution(num+1);
-                selected[num] = 0;
-                used[t] = 0;
+                boolean isDuplicate = false;
+                for(int j=1; j < num; j++){
+                    if(selected[j] == t) {
+                        isDuplicate = true;
+                    }
+                }
+                if(!isDuplicate){
+                    selected[num] = t;
+                    solution(num+1);
+                    selected[num] = 0;
+                }
 
             }
         }
@@ -46,7 +52,6 @@ public class Code02Advanced {
         N = inputData[0];
         M = inputData[1];
         selected = new int[M+1];
-        used = new int[N+1];
 
         //sol
         solution(1); // 1 ~
