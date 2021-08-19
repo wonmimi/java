@@ -1,4 +1,4 @@
-package Algorithm.BOJ.Programmars;
+package Algorithm.Programmars;
 import java.util.*;
 
 class Solution01{
