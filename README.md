@@ -1,6 +1,6 @@
-## java programming 복기 
+## java programming
 
 - [Java 문법](https://github.com/wonmimi/java/tree/main/src/GrammarPractice)
-- [자료구조](https://github.com/wonmimi/java/tree/main/src/GrammarPractice/Chapter05)
+- [알고리즘](https://github.com/wonmimi/java-programming-skills/tree/main/src/Algorithm/)
 - [Effective Java 3판](https://github.com/wonmimi/java/tree/main/src/EffectiveJava)
 
