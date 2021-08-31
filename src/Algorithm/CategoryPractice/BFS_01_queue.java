@@ -57,7 +57,7 @@ public class BFS_01_queue {
 
             // 4방향 확인
             for(int t=0; t<dx.length; t++){
-                int nx = x+ + dx[t];
+                int nx = x + dx[t];
                 int ny = y + dy[t];
                 // 영역밖
                 if(nx < 0 || nx >=n || ny < 0 || ny >= m) continue;;
