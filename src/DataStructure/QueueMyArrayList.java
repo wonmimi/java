@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /*
     ArrayList 클래스 활용해서 enqueue, dequeue 기능 구현
  */
-public class QueueMy<T> {
+public class QueueMyArrayList<T> {
     private ArrayList<T> queue = new ArrayList<>();
 
    public boolean enqeue(T t){
@@ -19,13 +19,13 @@ public class QueueMy<T> {
     }
 
     public static void main(String[] args) {
-        QueueMy<Integer> q1 = new QueueMy<Integer>();
+        QueueMyArrayList<Integer> q1 = new QueueMyArrayList<Integer>();
         q1.enqeue(321);
         q1.enqeue(1013);
         System.out.println(q1.deque());
         System.out.println(q1.deque());
 
-        QueueMy<String> q2 = new QueueMy<String>();
+        QueueMyArrayList<String> q2 = new QueueMyArrayList<String>();
         q2.enqeue("ㅎㅎ");
         q2.enqeue("wm");
         q2.enqeue("jm");
