@@ -27,7 +27,7 @@ public class MyHash {
     public boolean saveData(String key, String value){
         int address = this.hashFunc(key);
         if(this.HashTable[address] != null){
-            this.HashTable[address].value = value; // 값 변경
+            this.HashTable[address].value = value; // 충돌 ( 값 변경 처리 )
         }else{
             this.HashTable[address] = new Slot(value);
         }
@@ -36,7 +36,7 @@ public class MyHash {
 
     public String getData(String key){
         int address = this.hashFunc(key);
-        if(this.HashTable[address] != null){
+        if(this.HashTable[address] != null){ // 키 값을 통해 바로 검색
             return HashTable[address].value;
         } else {
             return  null;
@@ -48,8 +48,16 @@ public class MyHash {
         hash.saveData("jung","1234567");
         hash.saveData("park","7654321");
         hash.saveData("jung","111211");
-        hash.saveData("jung","111111");
+        hash.saveData("jungWonmi","111111"); //충돌 (j)
         System.out.println(hash.getData("jung"));
+        System.out.println(hash.getData("jungWonmi"));
+
+        hash.saveData("DaveLee", "01022223333");
+        hash.saveData("fun-coding", "01033334444");
+        hash.saveData("David", "01044445555"); // 충돌 D
+        hash.saveData("Dave", "01055556666"); // 충돌 D
+        System.out.println(hash.getData("DaveLee"));
+        System.out.println(hash.getData("David"));
     }
 
 
